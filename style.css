@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a {
+    display: inline-block;
+}
+.box {
+    display: flex;
+    align-items: center;
+    background-color: lime;
+    height: 60px;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin:20px auto;
+    justify-content: space-between;
+}
+.icon {
+    transition: 0.5s cubic-bezier(0,.95,.97,.17);
+}
+.sheet {
+    margin: 39px auto;
+    max-width: 400px;
+    padding: 30px;
+    display: none;
+    border-radius: 30px;
+    background-color: lime;
+}
+.text {
+    font-size: 56px;
+}
+.change {
+    display: block;
+}
+.circle {
+    transform: rotate(180deg);
+}
